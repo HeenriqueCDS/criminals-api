@@ -1,0 +1,25 @@
+{
+  "name": "idwall-data",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "collect-criminals": "tsx src/scripts/fetch-criminals.script.ts",
+    "start": "tsx watch src/server/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "prisma": "^5.3.1",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "axios": "^1.5.1",
+    "fastify": "^4.23.2"
+  }
+}
